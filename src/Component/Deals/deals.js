@@ -19,11 +19,18 @@ const deals = () => {
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    setIsHovered1(true);
+    setIsHovered1(true)
+   setTimeout(fn,1000)
+   
   };
-
+const fn=()=>{
+  setIsHovered1(false)
+}
   const handleMouseLeave = () => {
     setIsHovered(false);
+    
+    
+    
   };
   const loadApplication1 = () => {
     // axios
