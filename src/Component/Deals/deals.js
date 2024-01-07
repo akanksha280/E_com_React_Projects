@@ -80,7 +80,7 @@ const deals = () => {
       </h3>
       <br />
       <div className="row mt-4">
-        {/* style={{display:"inline",marginTop:"300px"}}     style={{width:"18vw",height:"auto"}}  */}
+        {/* sstyle={{display:"inline",marginTop:"300px"}}     style={{width:"18vw",height:"auto"}}  */}
         <span className=" mt-3" style={{ display: "inline" }}>
           <span
             className="text-dark btn fw-bold"
