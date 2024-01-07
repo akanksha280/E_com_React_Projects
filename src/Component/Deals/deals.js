@@ -19,49 +19,28 @@ const deals = () => {
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    setIsHovered1(true)
-   setTimeout(fn,1000)
-   
+    setIsHovered1(true);
+    setTimeout(fn, 1000);
   };
-const fn=()=>{
-  setIsHovered1(false)
-}
+  const fn = () => {
+    setIsHovered1(false);
+  };
   const handleMouseLeave = () => {
     setIsHovered(false);
-    
-    
-    
   };
   const loadApplication1 = () => {
-    // axios
-    //   .get("http://localhost:3001/newArrival")
-    //   .then((response) => {
+    
     setArr1(newArrival1);
     setArr(newArrival1);
-    // })
-    // .catch((error) => {
-    //   console.error("Error fetching data:", error);
-    // });
+    
   };
   const loadApplication2 = () => {
-    // axios
-    //   .get("http://localhost:3001/bestSeller")
-    //   .then((response) => {
     setArr2(bestSeller1);
-    // })
-    // .catch((error) => {
-    //   console.error("Error fetching data:", error);
-    // });
+    
   };
   const loadApplication3 = () => {
-    // axios
-    //   .get("http://localhost:3001/saleItem")
-    //   .then((response) => {
-    setArr3(saleItem1);
-    // })
-    // .catch((error) => {
-    //   console.error("Error fetching data:", error);
-    // });
+   setArr3(saleItem1);
+   
   };
 
   React.useEffect(() => {
