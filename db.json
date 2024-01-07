@@ -1,0 +1,133 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "alt": "First Slide",
+      "src": "../../images/backgr.jpg",
+      "weather": "Summer"
+    },
+    {
+      "id": 2,
+      "alt": "Second Slide",
+      "src": "../../images/backgr.jpg",
+      "weather": "Winter"
+    }
+  ],
+
+  "cards": [
+    {
+      "src": "../../images/FreeShipping.jpg",
+      "cardTitle": "Free Shipping"
+    },
+    {
+      "src": "../../images/247.jpg",
+      "cardTitle": "Support 24/7"
+    },
+
+    {
+      "src": "../../images/money.jpg",
+      "cardTitle": "Money Return"
+    },
+
+    {
+      "src": "../../images/off.jpg",
+      "cardTitle": "Order Discount"
+    }
+  ],
+  "newArrival": [
+    {
+      "title": "Lorem ipsum jacket",
+      "img": "../../images/d1.jpg",
+      "price":"Rs 2000"
+    },
+    {
+      "title": "Lorem ipsum fashion coat",
+      "img": "../../images/d2.jpg",
+      "price":"Rs 2700"
+    },
+    {
+      "title": "Lorem ipsum female coat",
+      "img": "../../images/d3.jpg",
+      "price":"Rs 7500"
+    },
+    {
+      "title": "Lorem ipsum jacket",
+      "img": "../../images/d4.jpg",
+      "price":"Rs 4000"
+    },
+    {
+      "title": "Lorem ipsum kids three",
+      "img": "../../images/d5.jpg",
+      "price":"Rs 2000"
+    },
+    {
+      "title": "Lorem ipsum kids four",
+      "img": "../../images/d6.jpg",
+      "price":"Rs 1000"
+    }
+  ],
+  "bestSeller": [
+    {
+      "title": "Lorem ipsum sweater",
+      "img": "../../images/e1.jpg",
+      "price":"Rs 6000"
+    },
+    {
+      "title": "Lorem ipsum kids three",
+      "img": "../../images/d3.jpg",
+      "price":"Rs 2000"
+    },
+    {
+      "title": "Lorem ipsum female coat",
+      "img": "../../images/e2.jpg",
+      "price":"Rs 7500"
+    },
+    {
+      "title": "Lorem ipsum jacket",
+      "img": "../../images/d4.jpg",
+      "price":"Rs 4000"
+    },
+    {
+      "title": "Lorem ipsum fashion coat",
+      "img": "../../images/d2.jpg",
+      "price":"Rs 2700"
+    },
+    {
+      "title": "Lorem ipsum kids four",
+      "img": "../../images/d6.jpg",
+      "price":"Rs 1700"
+    }
+  ],
+  "saleItem": [
+    {
+      "title": "Lorem ipsum kids four",
+      "img": "../../images/d6.jpg",
+      "price":"Rs 1700"
+    },
+    {
+      "title": "Lorem ipsum fashion coat",
+      "img": "../../images/d2.jpg",
+      "price":"Rs 2700"
+    },
+    {
+      "title": "Lorem ipsum kids three",
+      "img": "../../images/d3.jpg",
+      "price":"Rs 2000"
+    },
+    {
+      "title": "Lorem ipsum jacket",
+      "img": "../../images/d6.jpg",
+      "price":"Rs 4000"
+    },
+    {
+      "title": "Lorem ipsum kids three",
+      "img": "../../images/d3.jpg",
+      "price":"Rs 2000"
+    },
+    {
+      "title": "Lorem ipsum jacket",
+      "img": "../../images/d1.jpg",
+      "price":"Rs 2000"
+    }
+  ]
+}

@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#navv{
+  background-image: url('/src/images/backgr.jpg');
+}
+/* .nav-item:hover{
+  transition: color 0.3s ease-in-out;
+  color: #f39c12
+} */
+.hov{
+  transition: width 2s, height 2s, transform 1s; 
+}
+.hov:hover{
+  width: 50px;
+  height: 50px;
+  transform: rotate(8deg);
+}
+.foot{
+  text-decoration: none;
+
+}
+.foot:hover{
+  color: blue;
+  width: 50px;
+  
+}
+.blogs{
+  transition: width 2s,transform 1s;
+}
+.blogs:hover{
+   width:20rem; 
+   transform: rotateX(10deg); 
+  
+  transition: 0.2s all ease-out;
+  transform: scale(1.2);
+
+}
+.blog{
+  transition: width 2s,transform 1s;
+}
+.blog:hover{
+   width:20rem; 
+   /* transform: rotateX(10deg); 
+  
+  transition: 0.2s all ease-out;
+  transform: scale(1.2);
+  border-right: 1px solid hsla(0,0%,100%,.2); */
+  outline-style: hidden;
+  transition: 0.2s all ease-out;
+
+}
+.btg:hover{
+  opacity: 1;
+    
+    transform: translateY(4);
+    visibility: visible;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  
+}
+/* .bt:hover{
+  background:#6666ff;
+	color: white;
+    font-weight:bold;
+    width:140px;
+    border:0px;
+} */
