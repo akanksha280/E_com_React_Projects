@@ -7,7 +7,7 @@ import newArrival1 from "./newArrival.jsx";
 import bestSeller1 from "./bestSeller.jsx";
 import saleItem1 from "./saleItem.jsx";
 import { FaRegHeart, FaRegEye } from "react-icons/fa6";
-// import im3 from "../../images/blog3.jpg";
+// importt im3 from "../../images/blog3.jpg";
 
 const deals = () => {
   const [arrNew, setArr1] = React.useState([]);
