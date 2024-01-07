@@ -13,7 +13,7 @@ const blog = () => {
             <>
               <div className="m-5 col-12 col-sm-6 col-md-4 col-lg-3  blogs  ">
                 <div className="card-deck stretched-link">
-                  <div className="card offset-1">
+                  <div className="card">
                     <img
                       src={item.img}
                       className="card-img-top img-hover-zoom"
