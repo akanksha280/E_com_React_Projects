@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
+// eslint-disable-next-line
 import axios from "axios";
 import newArrival1 from "./newArrival.jsx";
 import bestSeller1 from "./bestSeller.jsx";
