@@ -29,32 +29,32 @@ const deals = () => {
     // axios
     //   .get("http://localhost:3001/newArrival")
     //   .then((response) => {
-        setArr1(newArrival1);
-        setArr(newArrival1);
-      // })
-      // .catch((error) => {
-      //   console.error("Error fetching data:", error);
-      // });
+    setArr1(newArrival1);
+    setArr(newArrival1);
+    // })
+    // .catch((error) => {
+    //   console.error("Error fetching data:", error);
+    // });
   };
   const loadApplication2 = () => {
     // axios
     //   .get("http://localhost:3001/bestSeller")
     //   .then((response) => {
-        setArr2(bestSeller1);
-      // })
-      // .catch((error) => {
-      //   console.error("Error fetching data:", error);
-      // });
+    setArr2(bestSeller1);
+    // })
+    // .catch((error) => {
+    //   console.error("Error fetching data:", error);
+    // });
   };
   const loadApplication3 = () => {
     // axios
     //   .get("http://localhost:3001/saleItem")
     //   .then((response) => {
-        setArr3(saleItem1);
-      // })
-      // .catch((error) => {
-      //   console.error("Error fetching data:", error);
-      // });
+    setArr3(saleItem1);
+    // })
+    // .catch((error) => {
+    //   console.error("Error fetching data:", error);
+    // });
   };
 
   React.useEffect(() => {
@@ -84,7 +84,6 @@ const deals = () => {
         <span className=" mt-3" style={{ display: "inline" }}>
           <span
             className="text-dark btn fw-bold"
-            
             onClick={newArrival}
             style={{ textDecoration: "none" }}
           >
@@ -126,13 +125,22 @@ const deals = () => {
                         role="group"
                         aria-label="Basic example"
                       >
-                        <button type="button" className="btn btn-primary btn-sm">
+                        <button
+                          type="button"
+                          className="btn btn-primary btn-sm"
+                        >
                           <FaRegHeart />
                         </button>
-                        <button type="button" className="btn btn-secondary btn-lg">
+                        <button
+                          type="button"
+                          className="btn btn-secondary btn-lg"
+                        >
                           Add to Card
                         </button>
-                        <button type="button" className="btn btn-primary btn-sm">
+                        <button
+                          type="button"
+                          className="btn btn-primary btn-sm"
+                        >
                           <FaRegEye />
                         </button>
                         <br />
